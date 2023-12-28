@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       Salam
-    </div>
-  )
-}
+          </div>
+  );
+};
 
-export default page
+export default Page;
