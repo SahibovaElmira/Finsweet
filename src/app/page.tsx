@@ -1,12 +1,17 @@
-import React from 'react';
-import Image from 'next/image';
 
-const Page = () => {
+export default function Home() {
   return (
-    <div>
-      Salam
-          </div>
+    <>
+      <div className="container mx-auto px-4">
+        
+        <h1>Hello word</h1>
+        <p>This is a content to make our page longer</p>
+        <div className="w-full h-screen bg-green-300"></div>
+        <p>
+          Lorem Ipsum is simply dummy text ...
+        </p>
+        
+      </div>
+    </>
   );
-};
-
-export default Page;
+}
