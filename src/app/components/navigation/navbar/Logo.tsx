@@ -36,7 +36,11 @@ const Logo = () => {
   return (
     <>
     
-        <div className="font-bold">Finsweet</div>
+        <div className="font-bold">        
+                <Link href="/home">
+                  <p>Finsweet</p>
+                </Link>
+             </div>
       <div
         style={{
           display: showButton ? "block" : "none",
