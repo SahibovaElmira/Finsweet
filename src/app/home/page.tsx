@@ -2,6 +2,7 @@ import React from 'react';
 import Brands from '../components/brands/page';
 import Header from '../components/Header/page';
 import Who from '../components/Who/page';
+import My_origins from '../components/my_origins/page';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Brands />
       <Who />
+      <My_origins/>
     </div>
   );
 };
