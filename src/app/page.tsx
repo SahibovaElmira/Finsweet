@@ -1,17 +1,20 @@
+import React from 'react';
+import Brands from './components/brands/page';
+import Header from './components/Header/page';
+import Who from './components/Who/page';
+import My_origins from './components/my_origins/page';
+import Cards from './components/cards/page';
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
-      <div className="container mx-auto px-4">
-        
-        <h1>Hello word</h1>
-        <p>This is a content to make our page longer</p>
-        <div className="w-full h-screen bg-green-300"></div>
-        <p>
-          Lorem Ipsum is simply dummy text ...
-        </p>
-        
-      </div>
-    </>
+    <div>
+      <Header />
+      <Brands />
+      <Who />
+      <My_origins/>
+      <Cards/>
+    </div>
   );
-}
+};
+
+export default Home;
