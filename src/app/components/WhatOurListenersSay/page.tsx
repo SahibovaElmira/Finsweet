@@ -20,7 +20,7 @@ const WhatOurListenersSay = () => {
           <button className="w-20 h-20 flex items-center justify-center bg-blue-500 text-white rounded-full">
             <span>&larr;</span>
           </button>
-          <button className="w-20 h-20 flex items-center justify-center bg-green-500 text-white rounded-full mt-2 sm:mt-0">
+          <button className="w-20 h-20 flex items-center justify-center bg-blue-500 text-white rounded-full mt-2 sm:mt-0">
             <span>&rarr;</span>
           </button>
         </div>
