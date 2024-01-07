@@ -9,6 +9,7 @@ import WhatOurListenersSay from './components/WhatOurListenersSay/page';
 import TestimonialCards from './components/TestimonialCards/page';
 import Subscribe from './components/subscribe/page';
 import Articles from './components/ArticlesAndNews/page';
+import OurSponsor from './components/OurSponsor/page';
 
 
 
@@ -25,6 +26,7 @@ const Home = () => {
       <TestimonialCards/>
       <Subscribe/>
       <Articles/>
+      <OurSponsor/>
    
       </div>
   );
