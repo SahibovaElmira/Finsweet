@@ -11,6 +11,7 @@ import Subscribe from './components/subscribe/page';
 import Articles from './components/ArticlesAndNews/page';
 import OurSponsor from './components/OurSponsor/page';
 import Footer from './components/Footer/page';
+import Copyright from './components/Copyright/page';
 
 
 
@@ -29,6 +30,7 @@ const Home = () => {
       <Articles/>
       <OurSponsor/>
       <Footer/>
+      <Copyright/>
    
       </div>
   );
