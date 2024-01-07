@@ -5,7 +5,11 @@ import Who from './components/Who/page';
 import My_origins from './components/my_origins/page';
 import Cards from './components/cards/page';
 import TopRow from './components/TopRow/page';
+import WhatOurListenersSay from './components/WhatOurListenersSay/page';
 import TestimonialCards from './components/TestimonialCards/page';
+import Subscribe from './components/subscribe/page';
+import Articles from './components/ArticlesAndNews/page';
+
 
 
 const Home = () => {
@@ -17,9 +21,12 @@ const Home = () => {
       <My_origins/>
       <TopRow/>
       <Cards/>
+      <WhatOurListenersSay/>
       <TestimonialCards/>
-     
-    </div>
+      <Subscribe/>
+      <Articles/>
+   
+      </div>
   );
 };
 

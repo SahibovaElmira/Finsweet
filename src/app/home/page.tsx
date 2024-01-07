@@ -8,6 +8,7 @@ import TopRow from '../components/TopRow/page';
 import WhatOurListenersSay from '../components/WhatOurListenersSay/page';
 import TestimonialCards from '../components/TestimonialCards/page';
 import Subscribe from '../components/subscribe/page';
+import Articles from '../components/ArticlesAndNews/page';
 
 
 
@@ -23,6 +24,8 @@ const Home = () => {
       <WhatOurListenersSay/>
       <TestimonialCards/>
       <Subscribe/>
+      <Articles/>
+      
      
 
      
