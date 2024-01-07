@@ -10,6 +10,7 @@ import TestimonialCards from '../components/TestimonialCards/page';
 import Subscribe from '../components/subscribe/page';
 import Articles from '../components/ArticlesAndNews/page';
 import OurSponsor from '../components/OurSponsor/page';
+import Footer from '../components/Footer/page';
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
       <Subscribe/>
       <Articles/>
       <OurSponsor/>
+      <Footer/>
      
 
      

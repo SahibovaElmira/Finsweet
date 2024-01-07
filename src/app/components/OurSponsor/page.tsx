@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const OurSponsor = () => {
   return (
-    <div className='bg-blue-700  w-full md:w-3/4 lg:w-1280 h-300 mr-60 py-8 mx-auto md:mr-0 mt-4642 md:ml-80 flex flex-col items-center justify-center'>
+    <div className='bg-blue-700  w-full md:w-3/4 lg:w-1280 h-300 mb-{-10} mr-30 py-4 mx-auto md:mr-0 mt-4642 md:ml-40 flex flex-col items-center justify-center'>
       <div className='flex items-center mb-8'>
         <h1 className='text-white font-inter text-2xl font-bold leading-9 tracking-normal text-center'>Our sponsor</h1>
       </div>
