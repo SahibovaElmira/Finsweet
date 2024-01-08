@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className="bg-black  w-1500 h-574 flex flex-col sm:flex-row justify-between items-center sm:gap-4 px-5 sm:px-12 py-8 sm:py-11">
+    <div style={{paddingTop:"4rem"}} className="bg-black  w-1500 h-574 flex flex-col sm:flex-row justify-between items-center sm:gap-4 px-5 sm:px-12 py-9 pt-12 sm:py-11">
       <div>
         <ul className="text-black">
           <li>
