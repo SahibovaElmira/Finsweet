@@ -8,6 +8,8 @@ import DreamSection from '../components/DreamSection/page'
 import Journey from '../components/Journey/page'
 import Achievements from '../components/Achievements/page'
 import CTA from '../components/CTA/page'
+import TopRow from '../components/TopRow/page'
+import Cards from '../components/cards/page'
 
 const host = () => {
   return (
@@ -18,6 +20,8 @@ const host = () => {
       <Journey/>
       <Achievements/>
       <CTA/>
+      <TopRow/>
+      <Cards/>
        <OurSponsor/>
       <Footer/>
       <Copyright/>
