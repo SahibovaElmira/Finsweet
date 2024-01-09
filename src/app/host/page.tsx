@@ -6,6 +6,7 @@ import AboutTheHost from '../components/AboutTheHost/page'
 import Brands from '../components/brands/page'
 import DreamSection from '../components/DreamSection/page'
 import Journey from '../components/Journey/page'
+import Achievements from '../components/Achievements/page'
 
 const host = () => {
   return (
@@ -14,6 +15,7 @@ const host = () => {
       <Brands/>
       <DreamSection/>
       <Journey/>
+      <Achievements/>
        <OurSponsor/>
       <Footer/>
       <Copyright/>
