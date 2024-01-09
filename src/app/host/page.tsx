@@ -7,6 +7,7 @@ import Brands from '../components/brands/page'
 import DreamSection from '../components/DreamSection/page'
 import Journey from '../components/Journey/page'
 import Achievements from '../components/Achievements/page'
+import CTA from '../components/CTA/page'
 
 const host = () => {
   return (
@@ -16,6 +17,7 @@ const host = () => {
       <DreamSection/>
       <Journey/>
       <Achievements/>
+      <CTA/>
        <OurSponsor/>
       <Footer/>
       <Copyright/>
