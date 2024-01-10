@@ -15,16 +15,16 @@ const Subscribe: React.FC = () => {
       />
 
         <p className="font-inter text-2xl font-bold leading-10 text-center mb-4 lg:mb-0">
-          Receive new episodes in your inbox.
+          Elektron poçt vasitəsilə əldə et.
         </p>
         <div className="flex flex-col lg:flex-row items-center w-full mx-auto">
           <input
             type="text"
-            placeholder="Enter your email"
+            placeholder="E-mail daxil edin"
             className="w-full lg:w-2/3 xl:w-3/4 h-12 text-center rounded-md p-2 mb-2 lg:mb-0 lg:mr-2"
           />
           <button className="w-full lg:w-auto h-12 bg-green-500 rounded-md px-4">
-            Subscribe
+            Abunə olun
           </button>
           <Image
         src="/Home/Mikrofon.png"

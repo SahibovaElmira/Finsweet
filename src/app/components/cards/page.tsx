@@ -7,18 +7,18 @@ import Image from 'next/image';
 const Cards: React.FC = () => {
   const data = [
     {
-      title: 'Ep 1: How to build a world-class business brand',
-      content: 'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
+      title: 'Ep 1: Dünya səviyyəli biznes brendini necə qurmaq olar?',
+      content: 'Yaxşı ad çox vaxt biznesin ən qiymətli aktivlərindən biridir.',
       imageUrl: '/Home/Home4.png',
     },
     {
-      title: 'Ep 2: Getting the first 100 customers for your business',
-      content: 'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
+      title: 'Ep 2: Biznesiniz üçün ilk 100 müştərini əldə edin',
+      content: 'Yeni müştərilərin cəlb olunması alətləri və yolları haqqında məlumat',
       imageUrl: '/Home/Home5.png',
     },
     {
-      title: 'Ep 3: Should I raise money for my startup, or not?',
-      content: 'Lorem ipsum at vero eos et accusam et justo duo dolores et ea rebum.',
+      title: 'Ep 3: Başlamaq üçün nə qədər sərmayə olmalıdır?',
+      content: 'Əməliyyatlara başlamaq üçün kapital götürmək istədiyiniz zaman biznes planları vacib rol oynayır.',
       imageUrl: '/Home/Home6.png',
     },
   ];

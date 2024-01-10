@@ -16,16 +16,16 @@ const Footer = () => {
       </div>
 
       <div>
-        <h1 className='text-white'>Pages</h1>
+        <h1 className='text-white'>Səhifələr</h1>
         <ul className="text-black">
           <li>
             <Link href="/home">
-              <p className='text-white'>Home</p>
+              <p className='text-white'>Ana Səhifə</p>
             </Link>
           </li>
           <li>
             <Link href="/podcasts">
-              <p className='text-white'>Podcast</p>
+              <p className='text-white'>Podkast</p>
             </Link>
           </li>
           <li>
@@ -35,46 +35,54 @@ const Footer = () => {
           </li>
           <li>
             <Link href="/blog">
-              <p className='text-white'>Blog</p>
+              <p className='text-white'>Bloq</p>
             </Link>
           </li>
         </ul>
       </div>
 
       <div>
-        <p className='text-white'>Reach Us</p>
+        <p className='text-white'>Bizə qoşulmaq üçün</p>
         <ul>
           <li>
             <Link href="/about">
-              <p className='text-white'>About</p>
+              <p className='text-white'>Haqqımızda</p>
             </Link>
           </li>
           <li>
             <Link href="/contact">
-              <p className='text-white'>Contact</p>
+              <p className='text-white'>Əlaqə</p>
             </Link>
           </li>
         </ul>
       </div>
 
       <div>
-        <p className='text-white'>Subscribe</p>
+        <p className='text-white'>Abunə ol</p>
         <div className='flex flex-col '>
           <div className='flex items-center'>
             <Image src='/Home/Iconi.png' alt='Icon' width={25} height={12} />
+            <Link href="https://www.apple.com/az/apple-podcasts/">
             <p className='ml-2 text-white'>Apple Podcasts</p>
+            </Link>
           </div>
           <div className='flex items-center mt-4 sm:mt-0'>
             <Image src='/Home/Cloud.png' alt='Cloud' width={25} height={12} />
+            <Link href="https://soundcloud.com/">
             <p className='ml-2 text-white'>SoundCloud</p>
+            </Link>
           </div>
           <div className='flex items-center mt-4 sm:mt-0'>
             <Image src='/Home/Lines.png' alt='Lines' width={25} height={12} />
-            <p className='ml-2 text-white'>Google Podcasts</p>
+            <Link href="https://podcasts.google.com/">
+            <p className='ml-2 text-white'> Google Podcasts </p>
+            </Link>
           </div>
           <div className='flex items-center mt-4 sm:mt-0'>
             <Image src='/Home/Vector.png' alt='Vector' width={25} height={12} />
+            <Link href="https://open.spotify.com/">
             <p className='ml-2 text-white'>Spotify</p>
+            </Link>
           </div>
         </div>
       </div>

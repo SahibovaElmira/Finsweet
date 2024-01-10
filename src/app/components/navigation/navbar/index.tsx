@@ -30,7 +30,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
             <ul className="hidden md:flex gap-x-6 text-black ">
               <li>
                 <Link href="/podcasts">
-                  <p>Podcats</p>
+                  <p>Podkastlar</p>
                 </Link>
               </li>
               <li>
@@ -40,17 +40,17 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
               </li>
               <li>
                 <Link href="/about">
-                  <p>About</p>
+                  <p>Haqqımızda</p>
                 </Link>
                 </li>
                 <li>
                 <Link href="/blog">
-                  <p>Blog</p>
+                  <p>Bloq</p>
                 </Link>
                 </li>
                 <li>
                 <Link href="/contact">
-                  <p>Contact</p>
+                  <p>Əlaqə</p>
                 </Link>
               </li>
             </ul>

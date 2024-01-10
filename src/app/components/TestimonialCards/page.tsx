@@ -7,18 +7,18 @@ import Image from 'next/image';
 const TestimonialCards: React.FC = () => {
   const data = [
     {
-      title: 'Eve Madien',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies amet odio fringilla. Ut nibh morbi augue porta aliquet commodo. Fermentum auctor lacus eget in ut integer viverra sed. Penatibus tortor consequat.',
+      title: 'Nura Əliyeva',
+      content: 'Podkastların mövzusu mükəmməl seçilib. Düşünürəm ki, insan mənəviyyatını zənginləşdirən amillərə xüsusi önəm verilmişdir.',
       imageUrl: '/Home/Home7.png',
     },
     {
-      title: 'Ash Benfred',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies amet odio fringilla. ',
+      title: 'Əli Vəliyev',
+      content: 'Hər gün yeni məlumatlar almaq üçün bu səhifəyə keçid edirəm. ',
       imageUrl: '/Home/Home8.png',
     },
     {
-      title: 'Ryan Smith',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem eget condimentum enim libero ultricies amet odio fringilla. Ut nibh morbi augue porta aliquet commodo. Fermentum auctor lacus eget in ut integer viverra sed. Penatibus tortor consequat.',
+      title: 'Tofiq Sahibi',
+      content: 'Bu gün bizim üçün bu cür imkanların olduğuna görə təşəkkür edirəm. Asudə vaxtımızı səmərəli keçirərək, maraqlı mövzularla tanış oluruq.',
       imageUrl: '/Home/Home9.png',
     },
   ];

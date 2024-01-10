@@ -5,14 +5,14 @@ const WhatOurListenersSay = () => {
     <div className=" sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4 stick ">
       <div className="sm:flex sm:items-center sm:justify-end w-full stick sm:top-3 lg:left-1">
         <div className="w-full sm:w-512 h-126 stick mt-3">
-          <h1 className="font-inter text-2xl font-bold leading-9 tracking-normal text-left">
-            What our listeners say
+          <h1 className="font-inter text-blue-700 text-2xl font-bold leading-9 tracking-normal text-left">
+          Dinləyicilərimiz nə deyir?
           </h1>
           <div className="mt-2">
             <p className="font-inter text-base font-normal leading-6 tracking-normal text-left text-body">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mus cras <br/> 
-               lacus tellus morbi viverra suspendisse ornare. Sit volutpat,<br/>
-                volutpat ut netus malesuada enim penatibus non aliquet.
+              Düşürəm ki, möhtəşəm layihədir, fərqli mövzular da <br/> 
+              aktuallığı ilə seçilir, maraq dairəmizi uyğundur, belə ki,<br/>
+                dünyagörüşümüzün formalaşmasında mühüm rolu vardır.
             </p>
           </div>
         </div>
