@@ -4,9 +4,10 @@ import Link from 'next/link';
 
 const PodcastHeader = () => {
   return (
-    <div>
-      <div className="relative h-564 bg-cover text-white p-4 md:p-8 text-center md:text-left" style={{ backgroundImage: "url('/Podcast/Podcast1.png')", top: '0px' }}>
-        <div className="w-1440 h-full absolute top-0 left-0" style={{ backgroundImage: "url('/Podcast/Podcast1.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+    <div className="relative h-screen bg-cover bg-center text-white p-4 md:p-8 text-center md:text-left" style={{ backgroundImage: "url('/Podcast/Podcast1.png')" }}>
+    <div className="absolute w-1440 h-564 top-2294 left-[-2px] bg-cover bg-center">
+          <Image src="/Podcast/Podcast2.png" alt="Podcast Image" layout="fill" objectFit="cover" />
+</div>
         <div className='bg-blue-700 w-full md:w-96 h-auto md:h-65 py-4 px-8 grid grid-cols-1'>
           <h1 className="font-bold text-xl md:text-3xl mb-4 py-10">
             Seçilən
@@ -20,7 +21,7 @@ const PodcastHeader = () => {
           </Link>
         </div>
       </div>
-    </div>
+    
   );
 };
 
