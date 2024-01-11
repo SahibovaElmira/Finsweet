@@ -6,12 +6,14 @@ import AboutHeader from "../components/AboutHeader/page";
 import Item from "../components/Item/page";
 import Achievements from "../components/Achievements/page";
 import AboutOurTeam from "../components/AboutOurTeam/page";
+import MeetOurTeam from "../components/MeetOurTeam/page";
 
 const About = () => {
   return  <div>
     <AboutHeader/>
     <Item/>
     <AboutOurTeam/>
+    <MeetOurTeam/>
     <OurSponsor/>
  <Footer/>
  <Copyright/>
