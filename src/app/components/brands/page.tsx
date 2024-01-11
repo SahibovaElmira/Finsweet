@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Brands = () => {
   return (
     <div className='flex flex-col sm:flex-row justify-center items-center sm:gap-4 px-5 sm:px-12 py-8 sm:py-11'>
-      <p className='mb-4 sm:mb-0 text-center'> Podcast Available On</p>
+      <p className='mb-4 sm:mb-0 text-center'> Podkastlar üçün</p>
       <div className='flex items-center'>
         <Image
           src='/Home/Iconi.png'
