@@ -7,6 +7,9 @@ import Item from "../components/Item/page";
 import Achievements from "../components/Achievements/page";
 import AboutOurTeam from "../components/AboutOurTeam/page";
 import MeetOurTeam from "../components/MeetOurTeam/page";
+import TopRow from "../components/TopRow/page";
+import Cards from "../components/cards/page";
+import OurSponsorTwo from "../components/OurSponsorTwo/page";
 
 const About = () => {
   return  <div>
@@ -14,6 +17,9 @@ const About = () => {
     <Item/>
     <AboutOurTeam/>
     <MeetOurTeam/>
+    <OurSponsorTwo/>
+    <TopRow/>
+    <Cards/>
     <OurSponsor/>
  <Footer/>
  <Copyright/>
