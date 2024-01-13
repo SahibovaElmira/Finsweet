@@ -8,6 +8,7 @@ const data = [
     imageUrl: '/Blog/Blog2.png',
     title: 'Dünya səviyyəli biznes brendini necə qurmaq olar?',
     content: 'Hələ hər şeydən əvvəl bazar araşdırması aparmalı və biznes planı hazırlamalısınız. Bu tamamlandıqdan sonra biznesiniz üçün ad və struktur seçin, sonra təşkilatınızı qeydiyyatdan keçirmək üçün hər hansı sənədləşmə işləri aparın.',
+  
   },
   {
     id: 1,

@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 interface CardProps {
   imageUrl: string;
   title: string;
@@ -15,7 +16,7 @@ const CardBlog: React.FC<CardProps> = ({ imageUrl, title, content }) => {
       <div className="p-4">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-700">{content}</p>
-        <Link href="/blog">
+        <Link href='/singleblog'>
           <p className='text-blue-700'> Indi oxu</p>  
         </Link>
       </div>
