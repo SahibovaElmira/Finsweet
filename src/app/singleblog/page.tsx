@@ -1,14 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
+import SingleBlogHeader from '../components/SingleBlogHeader/page'
+import Articles from '../components/ArticlesAndNews/page'
+import Subscribe from '../components/subscribe/page'
+import Footer from '../components/Footer/page'
+import Copyright from '../components/Copyright/page'
+
 
 const SingleBlog = () => {
   return (
     <div>
-   <h1>
-Biznesdə informasiya texnologiyaları haqqında</h1> 
+   <SingleBlogHeader/>
+   <Articles/>
+   <Subscribe/>
+   <Footer/>
+   <Copyright/>
 
-<Image src="/SingleBlog/SingleBlog1.png" alt="SingleBlog1" width={1280} height={582}/>
-<p></p>
     </div>
   )
 }
