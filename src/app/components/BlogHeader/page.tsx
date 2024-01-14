@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import SingleBlog from '../SingleBlogHeader/page';
 
 const BlogHeader = () => {
   return (
@@ -15,7 +16,7 @@ const BlogHeader = () => {
     <p className="font-inter text-16 font-normal ">
       Hər hansı layihənin uğur əldə etməsi ona doğru başlamaqdan asılıdır. Layihəni tərib edərkən ilk olaraq strukturuna diqqət yetirmək lazımdır.
     </p>
-    <Link href="wwww.google.com">
+    <Link href="/singleblog">
     <p className="my-2 text-blue-700">Indi oxu <span>&#8594;</span></p>
     </Link>
   </div>
