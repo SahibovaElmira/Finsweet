@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import SingleBlog from '../SingleBlogHeader/page';
 
 const DreamSection = () => {
   return (
@@ -14,9 +16,11 @@ const DreamSection = () => {
           Səmanı ulduzlarsız təsəvvür etmək çətin idi. Düşüncələrə qapıldım...
         </p>
       </div>
+      <Link href="/singleblog">
       <div>
         <Image src="/host/host2.png" alt="host2" width={630} height={615} />
       </div>
+      </Link>
     </div>
   );
 };

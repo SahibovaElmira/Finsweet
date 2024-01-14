@@ -77,8 +77,8 @@ const ContactInput = () => {
         </div>
       </div>
 
-      <div className='text-blue-700 flex flex-col justify-center items-center gap-4 col-span-3 ml-11 pl-11 h-1 '>
-  <h2 className='text-blue-950 font-extrabold font-2xl'>Sosial şəbəklər</h2>
+      <div className='text-blue-700 flex flex-col justify-center items-center gap-4 col-span-3 ml-11 pl-11 h-1 mb-4 mt-4 '>
+  <h2 className='text-blue-950 font-extrabold '>Sosial şəbəklər</h2>
   <div style={{ display: 'flex', gap: '10px' }}>
     <Link href='https://www.facebook.com/?locale=ru_RU'>
       <FaFacebook />
@@ -94,7 +94,7 @@ const ContactInput = () => {
 
 
       <div className='flex justify-end items-center col-span-2 md:col-span-3'>
-        <Image src='/Contact/Contact1.png' alt='Contact' width={279} height={320} />
+        <Image src='/Contact/Contact1.png' alt='Contact' width={279} height={320} mb-4 />
       </div>
     </div>
   );

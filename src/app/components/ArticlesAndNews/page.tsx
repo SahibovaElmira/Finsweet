@@ -1,4 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
+import blog from '@/app/blog/page';
+import SingleBlog from '../SingleBlogHeader/page';
 
 const Articles: React.FC = () => {
   return (
@@ -8,7 +11,9 @@ const Articles: React.FC = () => {
           <h2 className="card-title font-inter text-2xl font-bold leading-9 tracking-normal text-left">
             Xəbərləri və məqalələrimizi oxuyun
           </h2>
+          <Link href="/blog">
           <button className='text-blue-700 mt-2 md:mt-4'>Daha çox</button>
+          </Link>
           <img className="card-image" src="/Home/MaskGroup.png" alt="MaskGroup" />
         </div>
 
@@ -20,7 +25,9 @@ const Articles: React.FC = () => {
           <p className='font-inter text-sm font-normal leading-6 tracking-normal text-left'>
           &emsp;Müştərini necə cəlb etmək olar? – sualı bir çox sahibkar, biznesmen və satış mütəxəssisini narahat edən sualdır. 
           </p>
+          <Link href="/singleblog">
           <button className='text-blue-700 mt-2 md:mt-4'>İndi oxu</button>
+          </Link>
         </div>
 
         <div className="card mx-2">
@@ -31,7 +38,9 @@ const Articles: React.FC = () => {
           <p className="font-inter text-base font-normal leading-6 tracking-normal text-left">
           &emsp;Müştərilərin hansı məhsula tələbatlarının olduğunu araşdırmaqla işinizi ilk başdan sağlam təməl ilə qura bilərsiniz..
           </p>
-          <button className='text-blue-700 mt-2 md:mt-4'>İndi oxu</button>
+          <Link href="/singleblog">
+            <button className='text-blue-700 mt-2 md:mt-4'>İndi oxu</button>
+            </Link>
         </div>
       </div>
     </div>
