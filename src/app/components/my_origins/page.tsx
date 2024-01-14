@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-
+import Link from 'next/link';
 const MyOrigins = () => {
   return (
     <div className='stick pt-14 mx-auto grid grid-cols-1 sm:grid-cols-2'>
       <div className='sm:order-1'>
+        <Link href="https://www.youtube.com/results?search_query=podcasts">
         <Image
           className='flex py-14 pl-12 px-12 top-0'
           src='/Home/Left.png'
@@ -12,6 +13,7 @@ const MyOrigins = () => {
           height={512}
           alt='Left'
         />
+        </Link>
       </div>
       <div className='py-12 sm:order-2 mt-4  sm:mt-0'>
         <p className='backdrop:w-full text-red-900 first-letter:sm:backdrop:w-440 h-50 sm:h-auto sm:top-0 right-8 sm:right-0 font-inter text-4xl font-bold leading-11 tracking-tight text-center px-3 mb-3 sm:mb-0 backdrop:py-3'>

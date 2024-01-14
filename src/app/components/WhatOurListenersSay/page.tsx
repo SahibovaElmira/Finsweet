@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 const WhatOurListenersSay = () => {
   return (
     <div className=" sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4 stick ">
@@ -17,12 +17,15 @@ const WhatOurListenersSay = () => {
           </div>
         </div>
         <div className="flex flex-col px-12 sm:flex-row sm:space-x-4 mt-4 sm:mt-0 ">
+          <Link href="https://www.youtube.com/watch?v=26PrgjTboVQ">
           <button className="w-20 h-20 flex items-center justify-center bg-blue-500 text-white rounded-full">
             <span>&larr;</span>
           </button>
-          <button className="w-20 h-20 flex items-center justify-center bg-blue-500 text-white rounded-full mt-2 sm:mt-0">
+          </Link>
+          <Link href="https://www.youtube.com/watch?v=-8Yu2GiuSns"><button className="w-20 h-20 flex items-center justify-center bg-blue-500 text-white rounded-full mt-2 sm:mt-0">
             <span>&rarr;</span>
           </button>
+          </Link>
         </div>
       </div>
     </div>
