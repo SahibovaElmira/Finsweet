@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 const WhatOurListenersSay = () => {
   return (
-    <div className=" sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4 stick ">
+    <div className=" sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4 stick px-4">
       <div className="sm:flex sm:items-center sm:justify-end w-full stick sm:top-3 lg:left-1">
         <div className="w-full sm:w-512 h-126 stick mt-3">
           <h1 className="font-inter text-blue-700 text-2xl font-bold leading-9 tracking-normal text-left">

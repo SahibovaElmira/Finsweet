@@ -16,7 +16,7 @@ const MeetOurTeam = () => {
       },
     },
     {
-      name: 'Sarxan Əzimi',
+      name: 'Corc Vilson',
       role: 'Tədqiqatçı',
       imageSrc: '/About/About4.png',
       socialLinks: {
@@ -26,7 +26,7 @@ const MeetOurTeam = () => {
       },
     },
     {
-      name: 'Elmira Sahibova',
+      name: 'Ayla Məmmədli',
       role: 'Proqramist',
       imageSrc: '/About/About 5.png',
       socialLinks: {

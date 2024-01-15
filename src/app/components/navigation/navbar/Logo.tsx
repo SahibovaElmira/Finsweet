@@ -38,7 +38,7 @@ const Logo = () => {
     
         <div className="font-bold">        
                 <Link href="/home">
-                  <p className="text-blue-950 text-2xl"> &#123;Finsweet</p>
+                  <p className="text-blue-200 text-2xl"> &#123;Finsweet</p>
                 </Link>
              </div>
       <div

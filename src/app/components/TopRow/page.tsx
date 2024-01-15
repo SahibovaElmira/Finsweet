@@ -4,7 +4,7 @@ import podcats from '@/app/podcasts/page';
 
 const TopRow = () => {
   return (
-    <div className="sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4">
+    <div className="sm:flex sm:flex-col sm:items-start sm:space-y-4 py-4 px-4">
       <div className="sm:flex sm:items-center sm:justify-between w-full">
         <div>
           <h1 className="font-inter text-2xl font-bold leading-9 tracking-normal text-left">Son epizodlar</h1>
