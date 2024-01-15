@@ -17,7 +17,7 @@ const BlogHeader = () => {
       Hər hansı layihənin uğur əldə etməsi ona doğru başlamaqdan asılıdır. Layihəni tərib edərkən ilk olaraq strukturuna diqqət yetirmək lazımdır.
     </p>
     <Link href="/singleblog">
-    <p className="my-2 text-blue-700">Indi oxu <span>&#8594;</span></p>
+    <p className="my-2 text-blue-700">İndi oxu <span>&#8594;</span></p>
     </Link>
   </div>
      
